@@ -1,1 +1,1 @@
-# danceAcademyWeb
+# DanceAcademyWeb
