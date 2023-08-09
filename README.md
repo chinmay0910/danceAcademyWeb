@@ -33,6 +33,9 @@ Welcome to the Dance Academy Website project! This is a web application designed
 5. Access the website in your browser:
 Open **`http://localhost:80`** in your web browser.
 
+## Demo Screenshot of Website
+![danceAcademy](https://github.com/chinmay0910/danceAcademyWeb/assets/78205628/883723f1-ed92-49b3-b6d7-3ee0e4ef203e)
+
 ##
 
 For any inquiries or feedback, please contact me at [chinmayrmhatre@gmail.com](mailto:chinmayrmhatre@gmail.com).
