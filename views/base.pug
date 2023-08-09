@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title Sairaj Dance Studio 
+    block style 
+    block scripts
+  body
+    nav#navbar 
+            div#logo 
+                img(src="../static/dancelogo.png", alt="LOGO")
+                | SDS
+            ul 
+                li #[a(href="/") Home] 
+                li #[a(href="/#aboutus") About]
+                li #[a(href="/#aboutus") Services] 
+                li #[a(href="/contact") Class Info] 
+                li #[a(href="/contact") Contact Us]
+    block content
+    block foot
+        section#footer 
+            | Copyright Ⓒ 2023 | All Rights Reserved @s_r_dance_studio_

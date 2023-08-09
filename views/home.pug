@@ -1,0 +1,43 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/style.css 
+block scripts 
+    script 
+        include ../static/index.js
+
+block content
+    section#introSection
+            div.big Welcome to Sairaj Dance Studio
+            div.small Eat, Dance, Sleep Repeat
+
+    section#workSection 
+        p Our choreographs
+        div.container 
+            div.box 
+                iframe(src="https://www.youtube.com/embed/R8m205C7Zuo",title="YouTube video player" , frameborder="0") 
+            div.box
+                iframe(src="https://www.youtube.com/embed/T2txHJUdZcE",title="YouTube video player" , frameborder="0")
+            div.box
+                iframe(src="https://www.youtube.com/embed/_3xiRSjUbvg",title="YouTube video player" , frameborder="0")
+        li #[a(href="https://youtube.com/@sairajdancestudio8373" target="_blank") more...] 
+    
+    section#aboutus 
+        h4 About Us
+        hr
+        p We teach all styles dance with the whole knowledge like folk , Western, Bharatnatyam, Katthak, Bollywood, Hiphop, jazz, belly dance, salsa and Zumba fitness also.
+        p We give a chance in Various Plays (नाटक), Song album, shoots, shows, Movie and serials etc.We give Excellent treatment to our student! Teaching Students very lovely, carefully and in discipline nature.
+        p We take orders , dance event , sangeet sandhya....
+        br
+        h4 Visit our Pages
+        div#logoContainer
+            a(href='https://youtube.com/@sairajdancestudio8373' target='_blank')
+                div#ytlogo
+                    div#ytinner
+            a(href='https://www.instagram.com/s_r_dance_studio_/?hl=en' target='_blank')
+                div#instalogo
+                    div#instaborder
+                        div#instacircle1
+                        div#instacircle
+

@@ -1,0 +1,39 @@
+#para {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 80vh;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.input, textarea {
+    width: 80%;
+    margin: 5px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    resize: none;
+}
+
+.btn {
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
